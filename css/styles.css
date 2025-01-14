@@ -1,0 +1,473 @@
+html{
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+body{
+    margin: auto;
+}
+
+header{
+    padding: 0 auto;
+}
+
+.image-area{
+    background-image: url("/img/original-ED48946D-E34A-4080-B1CC-9D0B7F844906.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    padding: 2px;
+    max-width: 100%;
+    max-height: 30%; 
+    margin: 0;
+    overflow: hidden;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: #2266AB;
+    padding: 10px 0px;
+}
+
+footer{
+    color: white;
+    background-color: #6A0305;
+}
+
+h1{
+    font-size: 54pt;
+    opacity: 1;
+}
+
+h2{
+    font-size: 36pt;
+}
+
+h3{
+    font-size: 32pt;
+}
+
+h4{
+    font-size: 20pt;
+}
+
+p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16pt;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-item{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16pt;
+    line-height: 0;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 4px #194C80;
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+    color: #91BEEB;
+    text-shadow: 0px 4px #194C80;
+}
+
+.nav-item a:focus{
+    text-decoration: none;
+    color: #91BEEB;
+    text-shadow: 0px 4px #194C80;
+}
+
+.nav-item > a.active{
+    text-decoration: none;
+    color: #91BEEB;
+    text-shadow: 0px 4px #194C80;
+}
+
+.shows-area{
+    padding: 0px 20px;
+}
+
+.shows-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.shows-heading h2{
+    text-align: center;
+}
+
+.shows-list{
+    display: flex;
+    justify-content: center;
+}
+
+.shows-list ul{
+    padding: 0;
+    text-align: center;
+}
+
+.show-item{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16pt;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.videos-area{
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.videos-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.videos-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.large-video{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.large-video iframe{
+    width: 90%;
+    height: 50vh;
+}
+
+.small-video-1{
+    overflow: hidden;
+    width: 45%;
+}
+
+.small-video-1 iframe{
+    width: 100%;
+}
+
+.small-video-2{
+    overflow: hidden;
+    width: 45%;
+}
+
+.small-video-2 iframe{
+    width: 100%;
+}
+
+.Spotify img{
+    max-width: 42%;
+    margin: 0;
+}
+
+.Apple img{
+    max-width: 42%;
+    margin: 0;
+}
+
+.Youtube img{
+    max-width: 98%;
+    margin: 0
+}
+
+footer{
+    padding-bottom: 10px;
+}
+
+.footer-icons img:hover{
+    animation-name: grow;
+    animation-duration: .3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.footer-icons img:focus{
+    animation-name: grow;
+    animation-duration: .3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow{
+    from{
+        transform: scale(1)
+    }
+    to{
+        transform: scale(1.1)
+    }
+}
+
+.footer-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img{
+    max-width: 100%;
+}
+
+.about-area{
+    margin: auto 20px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.shop-area{
+    padding-bottom: 45px;
+    padding: 0px 20px;
+}
+
+.shop-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 20px;
+}
+
+.shop-heading p{
+    margin-top: 0;
+    margin-bottom: 45px;;
+}
+
+.shop-item{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.shop-item img{
+    max-width: 80%;
+    max-height: auto;
+    border-radius: 4%;
+}
+
+.shop-item img:hover{
+    animation-name: grow;
+    animation-duration: .3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.shop-item img:focus{
+    animation-name: grow;
+    animation-duration: .3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.shop-catalog{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+
+button{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16pt;
+    line-height: 0;
+    padding: 22px 12px;
+    color: white;
+    background-color: #2266AB;
+    border-style: none;
+    text-shadow: 0px 4px #194C80;
+    cursor: pointer;
+}
+
+button:hover{
+    text-decoration: none;
+    color: #91BEEB;
+    text-shadow: 0px 4px #194C80;
+}
+
+.form-area{
+    padding: 0px 20px;
+}
+
+.form-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 20px;
+}
+
+.form-heading p{
+    margin-top: 0;
+    margin-bottom: 45px;;
+    text-align: center;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+.socials-area{
+    background-color:#2266AB;
+    padding: 15px;
+}
+
+.socials-link{
+    display: flex;
+    justify-content: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16pt;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 4px #194C80;
+    text-align: center;
+}
+
+.socials-link a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 4px #194C80;
+}
+
+.socials-link:hover{
+    text-decoration: none;
+    color: #91BEEB;
+    text-shadow: 0px 4px #194C80;
+}
+
+#sharpies-logo{
+    height: 50%;
+    width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .image-area{
+        background-image: url("/img/original-ED48946D-E34A-4080-B1CC-9D0B7F844906.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-color: black;
+        padding: 2px;
+        max-width: 100%;
+        max-height: 50vh; 
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .navbar ul{
+        justify-content: center;
+    }
+
+    .nav-item{
+        margin: 0px 20px;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .shows-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shows-heading h2{
+        text-align: center;
+    }
+
+    .footer-red{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        align-items: center;
+    }
+
+    .about-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-sections{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-section-1{
+        display: flex;
+        gap: 20px;
+    }
+
+    .about-section-2{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
+    }
+
+    .shop-area{
+        display: flex;
+    }
+
+    .shop-heading{
+        justify-content: flex-start;
+        margin-top: 20px;
+        padding-top: 0;
+    }
+
+    .shop-catalog{
+        margin-top: 60px;
+    }
+
+    .form-area{
+        display: flex;
+    }
+
+    .form-heading{
+        margin-top: 20px;
+    }
+
+    .form-container{
+        margin-top: 20px;
+    }
+
+    #sharpies-logo{
+        height: 60%;
+        width: 60%;
+    }
+}
